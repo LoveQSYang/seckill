@@ -27,7 +27,7 @@ $(document).ready(function () {
         window.close();
     });
 
-    //切换本地时间和服务器世家你
+    //切换本地时间和服务器时间
     $("input:radio[name='useLocalTime']").change(function (){
         if($(this).val() == 0) {   //北京时间
             getServerTimeAndUpdate();
